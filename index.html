@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HL Construcciones e Inmobiliaria</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="css/style.css"></script>
+</head>
+<body class="font-sans bg-gray-50 text-gray-800">
+
+  <!-- HEADER -->
+  <header class="fixed top-0 w-full bg-white shadow-md z-50">
+    <div class="max-w-7xl mx-auto flex justify-between items-center py-4 px-6">
+      <h1 class="text-2xl font-bold" style="color: var(--hl-green);">
+        HL Iquitos
+      </h1>
+      <!-- Desktop nav -->
+      <nav id="navbar" class="space-x-6 hidden md:flex">
+        <a href="#inicio" class="nav-link">Inicio</a>
+        <a href="#nosotros" class="nav-link">Nosotros</a>
+        <a href="#proyectos" class="nav-link">Proyectos</a>
+        <a href="#servicios" class="nav-link">Servicios</a>
+        <a href="#contacto" class="nav-link">Contáctanos</a>
+      </nav>
+      <!-- Mobile button -->
+      <button id="menu-btn" class="md:hidden text-gray-700 focus:outline-none">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none"
+          viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      </button>
+    </div>
+    <!-- Mobile nav -->
+    <div id="menu" class="hidden md:hidden bg-white shadow-lg">
+      <a href="#inicio" class="block px-6 py-3 nav-link">Inicio</a>
+      <a href="#nosotros" class="block px-6 py-3 nav-link">Nosotros</a>
+      <a href="#proyectos" class="block px-6 py-3 nav-link">Proyectos</a>
+      <a href="#servicios" class="block px-6 py-3 nav-link">Servicios</a>
+      <a href="#contacto" class="block px-6 py-3 nav-link">Contáctanos</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="inicio" class="relative h-screen flex items-center justify-center bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1600&q=80');">
+    <div class="absolute inset-0 bg-black/50"></div>
+    <div class="relative text-center text-white max-w-2xl">
+      <h2 class="text-4xl md:text-6xl font-bold mb-6">Construimos Confianza, Construimos Futuro</h2>
+      <p class="text-lg mb-8">HL Construcciones e Inmobiliaria, tu socio seguro en inversión.</p>
+      <a href="#proyectos" class="bg-[var(--hl-green)] hover:bg-emerald-900 text-white px-6 py-3 rounded-lg font-semibold shadow-lg transition">
+        Descubre Nuestros Proyectos
+      </a>
+    </div>
+  </section>
+
+  <!-- SOBRE NOSOTROS -->
+  <section id="nosotros" class="py-20 px-6 max-w-6xl mx-auto">
+    <div class="grid md:grid-cols-2 gap-10 items-center mb-16">
+      <div>
+        <h3 class="text-3xl font-bold mb-4" style="color: var(--hl-green);">Sobre Nosotros</h3>
+        <p class="text-gray-700 leading-relaxed">
+          En HL Construcciones e Inmobiliaria nos dedicamos a crear proyectos con visión a futuro, garantizando seguridad, respaldo legal y valorización en cada inversión. 
+          Nuestro compromiso es transformar sueños en realidades tangibles.
+        </p>
+      </div>
+      <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1000&q=80" 
+           class="rounded-xl shadow-lg" alt="Construcción HL">
+    </div>
+
+    <!-- Visión, Misión y Valores -->
+    <div class="grid md:grid-cols-3 gap-8 mb-16 text-center">
+      <div class="bg-white rounded-xl shadow-lg p-8 hover:scale-105 transition">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-[var(--hl-green)] mx-auto mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12" />
+        </svg>
+        <h4 class="font-bold text-xl mb-2">Visión</h4>
+        <p class="text-gray-600">Ser líderes en proyectos inmobiliarios que impulsen el desarrollo de comunidades sostenibles.</p>
+      </div>
+      <div class="bg-white rounded-xl shadow-lg p-8 hover:scale-105 transition">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-[var(--hl-green)] mx-auto mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6l4 2" />
+        </svg>
+        <h4 class="font-bold text-xl mb-2">Misión</h4>
+        <p class="text-gray-600">Brindar soluciones de inversión seguras, innovadoras y rentables, mejorando la calidad de vida de nuestros clientes.</p>
+      </div>
+      <div class="bg-white rounded-xl shadow-lg p-8 hover:scale-105 transition">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-[var(--hl-green)] mx-auto mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 20l9-12H3z" />
+        </svg>
+        <h4 class="font-bold text-xl mb-2">Valores</h4>
+        <p class="text-gray-600">Compromiso, transparencia, innovación y trabajo en equipo como pilares de cada proyecto.</p>
+      </div>
+    </div>
+
+    <!-- Contadores -->
+    <div class="grid md:grid-cols-3 gap-8 text-center">
+      <div>
+        <p class="counter text-xl" data-target="5">0</p>
+        <p class="font-semibold text-xl">Años de Experiencia</p>
+      </div>
+      <div>
+        <p class="counter text-xl" data-target="450">0</p>
+        <p class="font-semibold text-xl">Clientes Satisfechos</p>
+      </div>
+      <div>
+        <p class="counter text-xl" data-target="4">0</p>
+        <p class="font-semibold text-xl">Proyectos Realizados</p>
+      </div>
+    </div>
+  </section>
+
+  
+  <!-- PROYECTOS -->
+  <section id="proyectos" class="py-20 container mx-auto px-6">
+    <h2 class="text-3xl font-bold text-center text-green-900 mb-12">Proyectos</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-gray-100 rounded-xl shadow overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e" alt="Proyecto 1" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="font-semibold">Lotización San Inés</h3>
+          <p>Proyecto ideal para casas de campo.</p>
+        </div>
+      </div>
+      <div class="bg-gray-100 rounded-xl shadow overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2" alt="Proyecto 2" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="font-semibold">Lotización Nueva Esperanza</h3>
+          <p>Ideal para vivienda, debido a su ubicación.</p>
+        </div>
+      </div>
+      <div class="bg-gray-100 rounded-xl shadow overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" alt="Proyecto 3" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="font-semibold">Proyecto Cinza</h3>
+          <p>Departamentos modernos con diseño minimalista y funcional.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section id="servicios" class="py-20 bg-gray-50">
+    <h2 class="text-3xl font-bold text-center text-green-900 mb-12">Nuestros Servicios</h2>
+    <div class="container mx-auto grid md:grid-cols-3 gap-8 px-6">
+      <div class="p-6 bg-white rounded-xl shadow text-center">
+        <i class="ph ph-house-line text-5xl text-green-900"></i>
+        <h3 class="text-xl font-semibold mt-4">Construcción</h3>
+        <p>Edificamos con estándares de calidad y seguridad, proyectos duraderos y sostenibles.</p>
+      </div>
+      <div class="p-6 bg-white rounded-xl shadow text-center">
+        <i class="ph ph-building text-5xl text-green-900"></i>
+        <h3 class="text-xl font-semibold mt-4">Inmobiliaria</h3>
+        <p>Venta y gestión de terrenos, casas y departamentos en las mejores ubicaciones.</p>
+      </div>
+      <div class="p-6 bg-white rounded-xl shadow text-center">
+        <i class="ph ph-clipboard-text text-5xl text-green-900"></i>
+        <h3 class="text-xl font-semibold mt-4">Consultoría</h3>
+        <p>Asesoría técnica y legal en proyectos de construcción e inversión inmobiliaria.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="py-20 bg-gray-50">
+    <h2 class="text-3xl font-bold text-center text-green-900 mb-12">Contáctanos</h2>
+    <div class="container mx-auto px-6 max-w-3xl">
+      <form class="grid grid-cols-1 gap-6 bg-white p-8 rounded-xl shadow">
+        <input type="text" placeholder="Nombre" class="border p-3 rounded-lg focus:outline-green-900">
+        <input type="email" placeholder="Correo" class="border p-3 rounded-lg focus:outline-green-900">
+        <textarea placeholder="Mensaje" rows="5" class="border p-3 rounded-lg focus:outline-green-900"></textarea>
+        <button type="submit" class="bg-green-900 text-white py-3 rounded-lg hover:bg-green-800">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-green-900 text-white py-8">
+    <div class="container mx-auto px-6 grid md:grid-cols-3 gap-6 text-center md:text-left">
+      <div>
+        <h3 class="font-bold text-lg mb-2">HL Construcciones e Inmobiliaria</h3>
+        <p>Construimos sueños, edificamos futuro.</p>
+      </div>
+      <div>
+        <h3 class="font-bold text-lg mb-2">Enlaces</h3>
+        <ul>
+          <li><a href="#inicio" class="hover:underline">Inicio</a></li>
+          <li><a href="#nosotros" class="hover:underline">Nosotros</a></li>
+          <li><a href="#servicios" class="hover:underline">Servicios</a></li>
+          <li><a href="#proyectos" class="hover:underline">Proyectos</a></li>
+          <li><a href="#contacto" class="hover:underline">Contáctanos</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-bold text-lg mb-2">Contáctanos</h3>
+        <p>Email: info@hliquitos.com</p>
+        <p>Tel: +51 927 824 516</p>
+      </div>
+    </div>
+    <p class="text-center mt-6">&copy; 2025 HL Construcciones e Inmobiliaria - Todos los derechos reservados.</p>
+  </footer>
+
+
+  <!--ascripts  -->
+  <script src="js/navbar.js"></script>
+</body>
+</html>

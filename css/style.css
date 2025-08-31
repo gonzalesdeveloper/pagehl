@@ -1,0 +1,12 @@
+:root {
+    --hl-green: #0B3D2E; /* Verde oscuro del logo */
+}
+.active-link {
+    color: var(--hl-green);
+    font-weight: 600;
+}
+.counter {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--hl-green);
+}
